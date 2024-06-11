@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1><span>DHANA</span>SEKARAN <span>R</span></h1>
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+
+          
+          
+        </nav>
+
+
+      </div>
+
+      <div class="profile">
+        <div class="left">
+          <h1>Full Stack <span>Web Developer</span></h1>
+          <h1>
+            Hi!! Iam <span>Dhanasekaran</span> from <br />
+            Tiruppur
+          </h1>
+        </div>
+
+        <img src="images/IMG_1948-1.jpg" width="400px" height="500px" />
+      </div>
+    </div>
+<!-- -----------------------About------------------ -->
+    <div id="About">
+      <div class="sub-container">
+        <div class="row1">
+          <img src="images/dhana.jpg" width="400px" height="400px" />
+        </div>
+
+        <div class="row2">
+          <h2>ABOUT ME</h2>
+
+          <p>
+            Hi, I'm Dhanasekaran, from Tirupur and I hold my MSc Computer Science. I'm passionate about Web Development and thrive in software fields.
+
+My skills extend beyond tech – excellent communication, innovative thinking, and a commitment to staying tech-savvy. I've earned certifications and actively participated in club activities and sports during college, it boosting my confidence and teamwork.
+<br> <br>
+Let's connect for opportunities in the dynamic world of technology!
+          </p>
+
+          <div class="tab-titles">
+            <div class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </div>
+            <div class="tab-links" onclick="opentab('education')">
+              Educations
+            </div>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>Html & CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>Python</li>
+              <li>Django</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2022-2024</span><br />Msc COMPUTER SCIENCE <br />
+                CHIKKANNA GOVT ARTS COLLEGE TIRUPPUR
+              </li>
+              <li>
+                <span>2019-2022</span><br />Bsc COMPUTER SCIENCE <br />
+                SRI RAMAKRISHNA COLLEGE OF ARTS AND SCIENCE <br />COIMBATORE
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!-- -------------------projects----------------------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">MY PROJECTS</h1>
+             <div class="service-list">
+                <div class="one">
+                    <i class="fa-solid fa-code" style="margin-bottom: 20px; font-size: 30px; position: relative;left: 30%;"></i>
+                    <h2>E-Commerce Website</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem, aperiam inventore saepe possimus sequi dolorum necessitatibus? Dignissimos, sunt. Minima!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div class="one">
+                    <i class="fa-solid fa-code" style="margin-bottom: 20px; font-size: 30px; position: relative;left: 30%;"></i>
+                    <h2>Traffic Signs Recognition</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem, aperiam inventore saepe possimus sequi dolorum necessitatibus? Dignissimos, sunt. Minima!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div class="one">
+                    <i class="fa-solid fa-code" style="margin-bottom: 20px; font-size: 30px; position: relative;left: 30%;"></i>
+                    <h2>Sales Prediction using Machine learning</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem, aperiam inventore saepe possimus sequi dolorum necessitatibus? Dignissimos, sunt. Minima!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+             </div>
+        </div>
+    </div>
+
+    <!-- ----------------------portfolio------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">MY WORKS</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work1.jpg" alt="">
+            <div class="layer">
+              <h3>E-Commerce Website</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ullam animi voluptatibus consectetur vitae illum! Dolor odit asperiores eveniet.</p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work4.jpeg" alt="">
+            <div class="layer">
+              <h3>Traffic Signs Recognition</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ullam animi voluptatibus consectetur vitae illum! Dolor odit asperiores eveniet.</p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+          </div>
+          <div class="work">
+            <img src="images/work3.jpg" alt="">
+            <div class="layer">
+              <h3>Sales Price Pediction</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ullam animi voluptatibus consectetur vitae illum! Dolor odit asperiores eveniet.</p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+
+      </div>
+    </div>
+
+    <!-- -----------------------contact---------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">CONTACT ME</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>dhanasekaran1720@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i>9344495103</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/mr_chill_boy7/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="http://linkedin.com/in/dhanasekaran08/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Resume D2.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>   
+           </form>
+           <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Dhana. <i class="fa-solid fa-heart"></i> This website made by own  </p>
+      </div>
+    </div>
+
+    <script>
+        let tablinks=document.getElementsByClassName("tab-links")
+        let tabcontents=document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+            
+            
+        }
+
+    </script>
+
+    <script>
+
+      let sidemenu=document.getElementById("sidemenu")
+      function openmenu() {
+        sidemenu.style.right="0"
+        
+      }
+
+      function closemenu() {
+        sidemenu.style.right="-200px"
+        
+      }
+        
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz4Oy08Wx33bW1Dkse0bH2QuC1Jq54tc0_kCgcxJD_wDzZ25c2lHc8Rh2Po26mZBM49/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent Successfully!!.."
+        setTimeout(() => {
+          msg.innerHTML=""
+          
+        }, 5000);
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
